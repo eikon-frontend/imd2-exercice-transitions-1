@@ -1,0 +1,61 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+:root {
+  --black: #000;
+  --light-blue: #4cc9f0;
+  --blue: #4361ee;
+  --dark-blue: #3a0ca3;
+  --pink: #f72585;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 60px 0;
+  font-family: Roboto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 30px 0 10px;
+  font-size: 24px;
+}
+
+video {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--black);
+}
+
+.exercise {
+  padding: 20px;
+  border: 1px solid var(--black);
+}
+
+.wrapper {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  background: var(--light-blue);
+}
+
+.item {
+  width: calc(100% / 3);
+  background: var(--dark-blue);
+  padding: 40px 0;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+
+// ---------------------------------------------
+// Votre code ici :
+// ---------------------------------------------
